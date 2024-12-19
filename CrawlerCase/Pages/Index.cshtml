@@ -64,6 +64,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <!-- Tüm haberleri getirir ve hepsine index numarası verir. -->
                         @foreach (var article in Model.Articles.Select((article, index) => new { Article = article, Index = index + 1 }))
                         {
                             <tr>

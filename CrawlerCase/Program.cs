@@ -8,6 +8,7 @@ namespace CrawlerCase
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            //Elasticsearch ve Crawler hizmetleri ekler.
             builder.Services.AddSingleton<IElasticsearchService, ElasticsearchService>();
             builder.Services.AddSingleton<ICrawlerService, CrawlerService>();
             // Add services to the container.

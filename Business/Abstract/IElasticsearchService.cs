@@ -9,7 +9,7 @@ namespace Business.Abstract
 {
     public interface IElasticsearchService
     {
-        Task<bool> AddNewsAsync();
+        Task<bool> AddNewsAsync(List<Article> articles);
         Task<List<Article>> GetNewsAsync();
         Task<bool> DeleteIndexAsync();
         Task<List<Article>> SearchNewsAsync(string query);

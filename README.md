@@ -41,7 +41,7 @@ Sorted News Display on the Website
 
 Searched Data Display
 
-![Arama](https://github.com/user-attachments/assets/6cfcc03a-9d57-4ea6-af73-0478888287df)
+![WhatsApp Görsel 2024-12-20 saat 10 08 37_2f69cc1d](https://github.com/user-attachments/assets/c86156ad-795b-48f1-ab97-baac4b3d478a)
 
 Elasticsearch Docker Compose
 

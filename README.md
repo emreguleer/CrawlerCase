@@ -32,7 +32,7 @@ Server is set up and integrated with Elasticsearch.
 
 Users can search for news by title.
 
-Project Screenshots.
+Project Screenshots:
 
 
 Sorted News Display on the Website

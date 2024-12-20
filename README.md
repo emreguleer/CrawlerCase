@@ -11,21 +11,25 @@ Features
 1.Elasticsearch Usage:
 
 Elasticsearch server is set up using Docker Compose.
+
 Recent news is stored and managed using Elasticsearch.
 
 2.Crawler:
 
 News is fetched from sözcü.com.tr.
+
 Old news is removed to keep only the latest data.
 
 3.Razor Pages for News Management:
 
 A search function is added for searching by title.
+
 News is displayed with an indexed number and sorted accordingly.
 
 4.Docker Compose:
 
 Docker Compose file created to run Elasticsearch server.
+
 Server is set up and integrated with Elasticsearch.
 
 5.Search Functionality:
@@ -38,6 +42,10 @@ Project Screenshots:
 Sorted News Display on the Website
 
 ![Opera Snapshot_2024-12-20_024850_localhost](https://github.com/user-attachments/assets/0c80db5e-3ec9-4acb-b339-11885a9b5ade)
+
+Keeping News Up-to-Date: Removing Old Entries
+
+![WhatsApp Görsel 2024-12-20 saat 10 14 39_62400c92](https://github.com/user-attachments/assets/ed9726ee-d81c-40c7-96ad-99934cf288ad)
 
 Searched Data Display
 

@@ -4,7 +4,7 @@ News Crawler & Elasticsearch News Management
 
 Project Description
 
-This project is developed to fetch recent news from sözcü.com.tr website and manage these news using Elasticsearch. A Docker Compose setup has been used to create and manage an Elasticsearch server. News crawled from the website is stored in Elasticsearch, and old news is removed to maintain up-to-date data. Afterward, Razor Pages is used to fetch and display news with indexed numbers and sorted accordingly. A search feature is also added for easy access.
+This project is developed to fetch recent news from sozcu.com.tr website and manage these news using Elasticsearch. A Docker Compose setup has been used to create and manage an Elasticsearch server. News crawled from the website is stored in Elasticsearch, and old news is removed to maintain up-to-date data. Afterward, Razor Pages is used to fetch and display news with indexed numbers and sorted accordingly. A search feature is also added for easy access.
 
 Features
 
@@ -16,7 +16,7 @@ Recent news is stored and managed using Elasticsearch.
 
 2.Crawler:
 
-News is fetched from sözcü.com.tr.
+News is fetched from sozcu.com.tr.
 
 Old news is removed to keep only the latest data.
 

@@ -32,7 +32,11 @@ namespace Business.Concrete
                         //Haber başlıklarını düzenle
                         var decodedTitle = WebUtility.HtmlDecode(title);
                         decodedTitle = Regex.Replace(decodedTitle, @"\s+", " ");
-                        articles.Add(new Article { Title = decodedTitle });
+                        if (!string.IsNullOrEmpty(decodedTitle))
+                        {
+                            articles.Add(new Article { Title = decodedTitle });
+                        }
+                        
                     }
                 }
             }
